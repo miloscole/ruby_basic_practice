@@ -16,3 +16,7 @@ def bubble_sort(array)
 end
 
 p bubble_sort [3, 4, 5, 1, 2, 3, 9, 7]
+
+p bubble_sort (0..20_000).to_a
+
+p bubble_sort (0..20_000).to_a + [4, 5, 7, 8]
