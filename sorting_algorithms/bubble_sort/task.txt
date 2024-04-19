@@ -1,0 +1,13 @@
+Assignment:
+
+Build a method #bubble_sort that takes an array and returns a sorted array. It must use the bubble sort methodology.
+
+> bubble_sort([4,3,78,2,0,2])
+=> [0,2,2,3,4,78]
+
+
+How bubble sort works:
+
+Bubble sort is a sorting algorithm that starts from the first element of an array and compares it with the second element.
+If the first element is greater than the second, we swap them.
+It continues this process until the end of the array, with the largest elements “bubbling” to the top.
